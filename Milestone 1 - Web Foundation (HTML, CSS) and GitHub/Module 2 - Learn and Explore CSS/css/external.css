@@ -1,0 +1,37 @@
+.header {
+    background-image: url('../assets/image.jpg');
+    text-align: center;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h3 {
+    font-size: 30px;
+    text-decoration: overline;
+    font-family: 'Courier New', Courier, monospace
+}
+
+/* .second {
+    display: none;
+} */
+
+.blog {
+    border: 10px solid tomato;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px 20px blueviolet;
+}
+
+.incident {
+    border: 2px solid yellowgreen;
+    display: block;
+    height: 200px;
+}
+
+.dolor {
+    border: 5px dashed peru;
+    height: 60px;
+    display: inline-block;
+}

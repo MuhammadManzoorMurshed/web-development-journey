@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute Selector</title>
+
+    <style>
+        p[title] {
+            color: blue;
+            font-weight: bold;
+        }
+
+        input[type="email"] {
+            border: 2px solid green;
+            padding: 5px;
+        }
+        input[type="password"] {
+            border: 2px solid red;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Attribute Selector</h3>
+    <p title="greeting">This paragraph has a title attribute.</p>
+    <p>This paragraph does not have a title attribute.</p>
+
+    <form action="">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" placeholder="Enter your password" name="" id="">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
