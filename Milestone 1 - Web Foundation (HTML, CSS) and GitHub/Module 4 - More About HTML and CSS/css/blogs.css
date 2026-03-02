@@ -1,0 +1,26 @@
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: left;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    margin-right: 15px;
+}
+
+nav li:hover {
+    background-color: aquamarine;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    margin-top: 20px;
+}

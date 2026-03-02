@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        form .basic_info label {
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="css/navbar.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="navbar.html">Home</a></li>
+                <li><a href="blogs.html">Blogs</a></li>
+                <li><a href="flex.html">Flex</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="center.html">Center</a></li>
+                <li><a href="audio_and_video.html">Audio & Video</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Jamal Mother Pitha Ghar</h2>
+            <form action="">
+                <fieldset class="basic_info">
+                    <legend>Basic Info</legend>
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" requiered placeholder="Enter your name">
+                    
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                    
+                    <label for="phone">Your Phone</label>
+                    <input type="phone" id="name" name="name" required placeholder="Enter your phone">
+                </fieldset> <br>
+
+                <fieldset>
+                    <legend>Pitha Info</legend>
+                    <label for="pitha">Select your pitha</label> <br>
+
+                    <input type="radio" id="pitha1" name="pitha" required>
+                    <label for="pitha1">Vapa Pitha</label> <br>
+
+                    <input type="radio" id="pitha2" name="pitha" required>
+                    <label for="pitha2">Chitoy</label> <br>
+
+                    <input type="radio" id="pitha3" name="pitha" required>
+                    <label for="pitha3">Dal Puri</label>
+                </fieldset> <br>
+
+                <fieldset>
+                    <legend>Vorta Info</legend>
+                    <label for="vorta">Select your vorta</label> <br>
+
+                    <input type="checkbox" id="vorta1" name="vorta" required>
+                    <label for="vorta1">Alu Vorta</label> <br>
+
+                    <input type="checkbox" id="vorta2" name="vorta" rquired>
+                    <label for="vorta2">Sorisha Vorta</label> <br>
+                    
+                    <input type="checkbox" id="vorta3" name="vorta" rquired>
+                    <label for="vorta3">Begun Vorta</label> <br>
+
+                    <input type="checkbox" id="vorta4" name="vorta" required>
+                    <label for="vorta4">Shutki Vorta</label>
+                </fieldset> <br>
+
+                <fieldset>
+                    <legend>Extra Info</legend>
+                    <label for="extra">Type your additional requirements</label> <br>
+                    <textarea name="extra" id="extra" cols="50" rows="5"></textarea>
+                </fieldset> <br>
+
+                <input type="submit" value="Submit">
+                <input type="reset" value="Clear">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>
