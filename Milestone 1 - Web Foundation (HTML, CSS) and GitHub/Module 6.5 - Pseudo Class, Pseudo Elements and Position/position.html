@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position</title>
+
+    <style>
+        .box {
+            border: 2px dotted plum;
+            width: 200px;
+        }
+
+        .box img {
+            width: 200px;
+        }
+/*
+        .boy {
+            position: relative;
+            left: 100px;
+            bottom: -50px;
+        }
+*/
+/*
+        .ring {
+            position: absolute;
+            right: 100px;
+            top: 100px;
+        }
+*/
+/*
+        .swim_container {
+            position: relative;
+            border: 2px solid green;
+        }
+        
+        .water {
+            position: absolute;
+            top: 0px;
+            right: 0px;
+        }
+*/
+/*
+        .ring {
+            position: sticky;
+            top: 0px;
+        }
+*/
+        .ring {
+            position: fixed;
+            top: 200px;
+            left: 200px;
+        }
+        .dummy {
+            border: 2px solid turquoise;
+            width: 200px;
+            height: 200px;
+        }
+
+        .another {
+            border: 2px solid rebeccapurple;
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>CSS Position</h3>
+
+    <ol>
+        <h4>Flow Related</h4>
+        <li>Static</li>
+        <li>Relative</li>
+        <li>Absolute</li>
+        <h4>Scroll Related</h4>
+        <li>Fixed</li>
+        <li>Sticky</li>
+    </ol>
+
+    <div class="swim_container">
+        <div class="box boy">
+            <img src="swim-boy.jpg" alt="">
+        </div>
+        <div class="box ring">
+            <img src="ring.webp" alt="">
+        </div>
+        <div class="box water">
+            <img src="water.jpg" alt="">
+        </div>
+        <div class="dummy">Dummy Div-1</div>
+        <div class="dummy">Dummy Div-2</div>
+        <div class="dummy">Dummy Div-3</div>
+        <div class="dummy">Dummy Div-4</div>
+        <div class="dummy">Dummy Div-5</div>
+        <div class="dummy">Dummy Div-6</div>
+        <div class="dummy">Dummy Div-7</div>
+        <div class="dummy">Dummy Div-8</div>
+        <div class="dummy">Dummy Div-9</div>
+        <div class="dummy">Dummy Div-10</div>
+        <div class="dummy">Dummy Div-11</div>
+        <div class="dummy">Dummy Div-12</div>
+        <div class="dummy">Dummy Div-13</div>
+        <div class="dummy">Dummy Div-14</div>
+        <div class="dummy">Dummy Div-15</div>
+    </div>
+
+    <div class="another">Another Dummy Div-1</div>
+    <div class="another">Another Dummy Div-2</div>
+    <div class="another">Another Dummy Div-3</div>
+    <div class="another">Another Dummy Div-4</div>
+    <div class="another">Another Dummy Div-5</div>
+</body>
+
+</html>

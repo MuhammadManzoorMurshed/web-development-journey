@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Element</title>
+
+    <style>
+        h3 {
+            color: peru;
+        }
+
+        h3:hover {
+            color: tomato;
+            background-color: skyblue;
+        }
+
+        input:focus {
+            color: blue;
+            padding: 5px;
+            outline: 0;
+            border: 1px solid red;
+        }
+
+        a:visited {
+            color: yellowgreen;
+        }
+
+        li:first-child {
+            color: beige;
+        }
+
+        li:last-child {
+            font-weight: bold;
+        }
+
+        li:nth-child(2n) {
+            background-color: cadetblue;
+        }
+
+        li:nth-child(2n+1) {
+            font-size: 25px;
+        }
+
+        li:nth-child(3n) {
+            margin-left: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>My Heading</h3>
+
+    <input type="text"> <br>
+    <input type="text"> <br>
+    <input type="text"> <br>
+
+    <a href="https://google.com/">Google</a>
+    <a href="https://youtube.com/">Youtube</a>
+
+    <ul>
+        <li>List 1</li>
+        <li>List 2</li>
+        <li>List 3</li>
+        <li>List 4</li>
+        <li>List 5</li>
+        <li>List 6</li>
+        <li>List 7</li>
+        <li>List 8</li>
+        <li>List 9</li>
+        <li>List 10</li>
+    </ul>
+</body>
+
+</html>
