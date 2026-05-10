@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .post1, .post2 {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            text-align: justify;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        h3 {
+            margin-bottom: 10px;
+            text-align: left;
+        }
+
+        .description {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        @media screen and (max-width: 575px) {
+            .post1, .post2 {
+                grid-template-columns: repeat(1, 1fr);
+            }
+
+            .post2 {
+                display: flex;
+                flex-direction: column-reverse;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="post1">
+            <div class="image">
+                <img src="tree.webp" alt="">
+            </div>
+            <div class="description">
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, adipisci qui. Officiis accusamus molestias, rerum
+                    explicabo atque illo voluptatem aliquam dicta sunt quas modi a nostrum cupiditate necessitatibus suscipit dolorum
+                    sed dolore non nam et? Voluptate, et! Quaerat sit ad labore corrupti quidem a numquam, adipisci, praesentium impedit
+                    eius sequi repudiandae architecto dignissimos magni sunt enim aliquid ab delectus quod repellendus alias atque ullam
+                    reiciendis. Quam animi dolore odit aliquam cupiditate, sunt nisi, asperiores eum itaque unde aperiam? Dolorem saepe,
+                    odio soluta quaerat tempora, deserunt est sit unde neque fuga repudiandae corrupti quibusdam delectus exercitationem
+                    maxime repellat sint odit natus.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, iure. Quasi non quibusdam enim, consequatur saepe
+                    repellendus iusto consequuntur laborum minus illo, quia dolore ullam delectus blanditiis laboriosam dolores
+                    asperiores temporibus, sed velit mollitia vel adipisci beatae? Ipsa, maxime. Labore provident id rerum nesciunt quia
+                    iure incidunt sed aspernatur, quam nostrum. Ab placeat voluptatem enim quae magni ducimus consectetur provident,
+                    accusamus unde inventore deserunt velit. Voluptatibus, culpa libero rerum exercitationem repellat tempore tempora
+                    maxime, ducimus asperiores quisquam odit commodi accusantium neque ipsam enim? Corrupti facere perspiciatis
+                    reiciendis ea sint ducimus dicta quia recusandae atque ab, mollitia, quod at eos dignissimos, praesentium veritatis
+                    natus consequatur assumenda. Dolore incidunt sit maxime atque officia, qui cum cupiditate? Perspiciatis qui delectus
+                    iste quaerat eius quibusdam sint pariatur nemo deserunt incidunt harum, labore eaque iure explicabo ullam id odio,
+                    quasi eum illum. Vitae quaerat modi sequi provident, tempora quos qui sed accusamus magnam, odit tempore
+                    necessitatibus. Nostrum sint itaque, repudiandae eos voluptas doloribus suscipit accusantium numquam, sequi sunt
+                    aliquid eius aspernatur veniam possimus quaerat dignissimos cupiditate ipsam distinctio nesciunt. Laborum sed earum
+                    nulla autem dicta itaque voluptatibus cum, eligendi exercitationem corporis, pariatur, reiciendis facilis voluptas
+                    voluptatum libero numquam rerum nihil quidem. Quae similique blanditiis ut!</p>
+            </div>
+        </div>
+        <div class="post2">
+            <div class="description">
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias beatae maxime recusandae cumque expedita corrupti
+                    perspiciatis, quod, laudantium blanditiis dolorum, sit optio et nemo? Corrupti placeat quod architecto magni qui
+                    harum quis minus fugit blanditiis labore ea vero sequi dicta tempore, facere ipsum in cupiditate modi commodi
+                    similique consequatur nulla itaque. Necessitatibus odit, qui repellat laborum laboriosam iusto blanditiis cum odio
+                    animi possimus pariatur impedit recusandae, inventore saepe quos. Voluptatem animi facilis fugit sapiente, itaque
+                    soluta fugiat in dignissimos blanditiis, cupiditate, voluptate aliquid eaque deserunt harum! Debitis nemo qui,
+                    facilis, iusto nisi necessitatibus nostrum sapiente, atque quaerat pariatur magnam aspernatur.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo obcaecati nihil fugit facere similique,
+                    perferendis voluptatibus, quod libero voluptates tenetur fugiat sunt pariatur eius iure iusto? Iste, incidunt.
+                    Doloremque delectus dolorum quas possimus reiciendis nesciunt saepe temporibus, natus, asperiores qui quae sit? Hic
+                    ipsum obcaecati, cum est voluptatem eos aliquam animi iusto, autem sint debitis delectus et! Accusamus recusandae
+                    similique velit sit pariatur esse odit inventore minus vel tempore cupiditate quibusdam explicabo, sunt, quos
+                    assumenda amet tempora ipsum ut odio qui voluptas cum. Nobis dolorum assumenda, esse natus illo eos temporibus alias
+                    sunt labore fugit autem neque porro saepe animi laboriosam similique corrupti unde vero ipsum error. Eligendi qui
+                    laborum numquam aspernatur vero, veritatis suscipit, ullam quos excepturi aut praesentium et omnis est
+                    necessitatibus quam quasi tempora reprehenderit totam dolorum officiis? Dolorum consequatur veritatis provident
+                    architecto animi similique blanditiis quisquam amet officiis, ducimus delectus sit officia aliquam. Ipsa ducimus est
+                    error rem reiciendis. Dolor enim, aperiam, vitae cum maiores, soluta doloribus eius ipsam accusamus perspiciatis ex
+                    nulla incidunt tempora perferendis. Nulla numquam non rem fugit, rerum consequuntur optio illo maiores praesentium
+                    mollitia vero placeat ullam labore, libero, voluptatibus quasi earum quas repellendus vitae eum facilis! Officiis
+                    aperiam nobis fuga fugiat!</p>
+            </div>
+            <div class="image">
+                <img src="girl.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

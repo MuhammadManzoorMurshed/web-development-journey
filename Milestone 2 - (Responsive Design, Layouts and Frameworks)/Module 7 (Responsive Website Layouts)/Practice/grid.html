@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            height: 100vh;
+            gap: 5px;
+            color: white;
+        }
+
+        .container1, .container3, .container5, .container6 {
+            padding: 5px;
+        }
+        
+        .container1 {
+            background-color:crimson;
+        }
+        .container2 {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 5px;
+        }
+
+        .container3 {
+            background-color:goldenrod;
+        }
+
+        .container4 {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 5px;
+        }
+
+        .container5 {
+            background-color:darkmagenta;
+        }
+
+        .container6 {
+            background-color: green;
+        }
+
+        @media screen and (max-width: 575px) {
+            .container, .container2, .container4{
+                grid-template-columns: repeat(1, 1fr);
+            }
+
+            .container1, .container3, .container5, .container6 {
+                height: 25vh;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="container1">
+            1
+        </div>
+        <div class="container2">
+            <div class="container3">
+                2
+            </div>
+            <div class="container4">
+                <div class="container5">
+                    3
+                </div>
+                <div class="container6">
+                    4
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
