@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Layout</title>
+    <style>
+        .header,
+        .navbar,
+        .main,
+        .sidebar,
+        .advertise,
+        .footer {
+            background-color: bisque;
+            border: 2px solid tomato;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .header {
+            grid-area: header;
+        }
+
+        .navbar {
+            grid-area: navbar;
+        }
+
+        .main {
+            grid-area: main;
+        }
+
+        .sidebar {
+            grid-area: sidebar;
+        }
+
+        .advertise {
+            grid-area: advertise;
+        }
+
+        .footer {
+            grid-area: footer;
+        }
+
+        .container {
+            display: grid;
+            gap: 10px;
+            grid-template-areas:
+                "header header header header"
+                "navbar main main sidebar"
+                "navbar main main advertise"
+                "footer footer footer footer";
+        }
+
+        @media screen and (max-width: 575px) {
+            .container {
+                grid-template-areas:
+                    "header"
+                    "navbar"
+                    "main"
+                    "sidebar"
+                    "advertise"
+                    "footer";
+            }
+        }
+
+        @media screen and (min-width: 575px) and (max-width: 992px) {
+            .container {
+                grid-template-areas:
+                    "header header header"
+                    "navbar navbar navbar"
+                    "sidebar main main"
+                    "advertise footer footer";
+            }
+        }
+    </style>
+</head>
+
+<body class="container">
+    <header class="header">
+        <h2>The Header</h2>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="">Nav 1</a></li>
+            <li><a href="">Nav 2</a></li>
+            <li><a href="">Nav 3</a></li>
+        </ul>
+    </nav>
+
+    <main class="main">
+        <article>
+            <h3>Main Article 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, quasi. Qui aliquam enim libero odio
+                obcaecati neque at totam molestias numquam voluptatem eos blanditiis similique fugiat error esse
+                praesentium culpa, harum consequatur doloremque consectetur dolores perferendis! Dolorum excepturi,
+                beatae suscipit optio non sapiente eligendi assumenda? Commodi cum necessitatibus corrupti, quas
+                officiis dolores quibusdam tempore modi fuga saepe blanditiis earum, iste ad facere, numquam fugit eos
+                consectetur tempora. Repellat, reprehenderit saepe optio cumque nobis id quo, voluptatem nisi dolor sed
+                recusandae? Assumenda porro delectus minus enim sed ab quas temporibus doloremque ducimus ad
+                exercitationem molestias, necessitatibus tempore quo! Voluptas, optio sapiente quas illum ab id fugiat
+                veritatis consectetur ratione at mollitia maxime quam eveniet vel, suscipit officiis obcaecati saepe
+                aliquam unde corporis laboriosam libero! Voluptates, at dolor magnam, a deleniti qui praesentium animi
+                quis ex, nostrum laboriosam commodi tempora? Debitis quae cumque numquam maiores ab rerum quam
+                cupiditate officia distinctio doloremque, ipsa voluptatibus magni earum dolorum optio sed necessitatibus
+                labore laudantium nihil est eum, ipsum, asperiores recusandae iste. Quo, optio ut libero fugit debitis
+                voluptatum dolores esse neque possimus iste hic et voluptate ea nam consectetur facilis consequuntur,
+                molestiae ipsum magnam nobis, placeat error? Debitis aliquam expedita, porro beatae fugit repellat
+                assumenda officia iste tenetur sint. Odit incidunt quis laudantium optio sit, quo itaque, maiores fugit
+                necessitatibus repellat id tenetur quod, quam perspiciatis commodi? Quidem qui dignissimos autem. Illum
+                laborum officiis magni id esse? Molestias iste, eum similique quas vero inventore eveniet exercitationem
+                ut quia iure esse impedit tempore cupiditate voluptas?</p>
+        </article>
+        <article>
+            <h3>Main Article 2</h3>
+            <p>Recusandae facilis deleniti id nihil. Fugit facere at, quibusdam quaerat qui perferendis atque deleniti
+                mollitia aliquam maiores nam corporis natus iusto ullam hic vel adipisci. Delectus quod minus, possimus
+                voluptatibus pariatur voluptate. Debitis culpa repellat nobis enim asperiores reiciendis nihil quaerat
+                aperiam error nesciunt perspiciatis omnis, fugit nostrum quo sit quas nemo maxime, nisi, odio eius
+                possimus voluptas. Provident consectetur, laudantium ea tenetur eius ducimus officiis asperiores harum
+                qui totam non? Et voluptate consequuntur libero eveniet illum sit architecto! Molestias voluptatibus
+                maxime obcaecati, labore iure, deleniti expedita assumenda voluptates officia eaque eum laborum maiores
+                impedit sit ex quam. Ipsum delectus incidunt, repellat aut dignissimos dolores perferendis quo fugit
+                nemo accusantium sit unde odit tenetur natus mollitia enim ea odio maxime facere qui ullam maiores
+                praesentium. Quibusdam voluptate dolorum, in animi repellendus itaque beatae iusto aliquid repellat
+                libero ratione error aperiam dolorem provident ut, labore distinctio aspernatur id sit obcaecati ab.
+                Aliquam corrupti magni quae excepturi, nesciunt ipsam obcaecati voluptas reiciendis totam autem corporis
+                asperiores, eos, tempora est quibusdam quasi nam porro id sit ex sunt. Beatae a, quae molestias quam
+                modi labore magnam esse perspiciatis animi et iure at, placeat magni adipisci blanditiis sequi aliquid
+                repellendus autem repudiandae expedita voluptates. Perspiciatis incidunt delectus nulla. Perferendis
+                quae molestiae quo at cupiditate ullam eum eius dolore, minima repudiandae culpa error tempora rem, odio
+                praesentium ipsam unde. Culpa voluptate dolore nemo aspernatur enim doloribus adipisci eveniet saepe
+                cumque magni minus obcaecati nihil placeat quos veritatis accusamus quam exercitationem, facere velit,
+                perspiciatis blanditiis officiis.</p>
+        </article>
+        <article>
+            <h3>Main Article 3</h3>
+            <p>Corrupti, facere repudiandae. In repudiandae earum recusandae facilis quisquam molestiae atque incidunt?
+                Sunt minima odio, error exercitationem quaerat voluptate aliquid aspernatur maiores, nisi expedita nam
+                dolores facilis enim dignissimos placeat veniam quisquam qui. Ex placeat blanditiis corrupti cupiditate
+                ea et, neque possimus delectus amet maxime minus nisi officiis, vel fugit soluta quia excepturi autem
+                eum at voluptate nesciunt illo quam. Ad aut in laboriosam quae ab deleniti atque tempora nisi ipsam.
+                Minus at ipsum et veritatis. Numquam, quae at eveniet quas tenetur ex obcaecati atque doloremque
+                voluptatem deserunt culpa odit cum facere temporibus? Praesentium, saepe quis. Voluptas expedita
+                explicabo sed itaque illo voluptates alias eveniet accusamus nam non reiciendis nemo, eius ullam, in,
+                optio enim atque a possimus consequuntur. Corrupti quasi beatae ipsum omnis expedita, ratione tenetur
+                accusantium eligendi necessitatibus vel quaerat, quia ea tempore? Ut sint fugit iusto explicabo? Dolorum
+                rerum maiores at neque adipisci libero labore nam beatae, expedita accusamus quo ducimus quibusdam quas
+                est pariatur minus odio repudiandae dicta ipsa deleniti non vel ipsam? Quaerat quas quia, temporibus
+                sequi quam explicabo, modi ut quis sunt minima, doloremque nulla cupiditate fugiat molestiae?
+                Recusandae, quaerat magnam nemo odio possimus, cum eum at rerum illum, deserunt laboriosam? Voluptatum
+                magnam tenetur porro obcaecati exercitationem modi commodi eligendi quae quibusdam ducimus quam
+                repudiandae a amet suscipit nisi dicta voluptates assumenda, sequi pariatur. Distinctio repellendus
+                natus commodi, dolores quisquam voluptatum tenetur ullam reiciendis laudantium fuga! Corrupti, voluptas?
+                Nesciunt soluta similique vel quis. Sint quibusdam sunt inventore in laudantium vero dolores architecto
+                exercitationem officiis!</p>
+        </article>
+    </main>
+
+    <div class="sidebar">
+        <h4>Sidebar</h4>
+    </div>
+
+    <div class="advertise">
+        <h4>Advertisement</h4>
+    </div>
+
+    <footer class="footer">
+        <h3>The Footer</h3>
+    </footer>
+</body>
+
+</html>
