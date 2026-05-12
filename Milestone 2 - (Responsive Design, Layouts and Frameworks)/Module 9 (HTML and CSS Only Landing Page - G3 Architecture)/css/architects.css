@@ -1,0 +1,396 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Fonts */
+.work-sans-normal {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* Shared Styles */
+.white_font {
+    color: #FFFFFF;
+}
+
+.white_bg {
+    background-color: #FFFFFF;
+}
+
+.highlighted_font {
+    color: #FF900E;
+}
+
+.dark_1 {
+    color: #131313;
+}
+
+.dark_2 {
+    color: #424242;
+}
+
+.dark_3 {
+    color: #727272;
+}
+
+.description_font {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 26px;
+}
+
+.bg_primary {
+    background-color: #FF900E;
+}
+
+.display_flex {
+    display: flex;
+}
+
+.display_grid {
+    display: grid;
+}
+
+.btn {
+    background-color: #FF900E;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 1.25rem;
+    padding: 20px 25px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.nav,
+.banner,
+main,
+footer {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.fow_fos {
+    font-weight: 700;
+    font-size: 2.8rem;
+}
+
+main>section {
+    margin-top: 125px;
+}
+
+/* Header Styles */
+header {
+    background-color: rgba(255, 144, 14, 0.1);
+    padding: 50px 20px;
+}
+
+.nav .navbar,
+.will_love_enjoy {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav .navbar .nav_links {
+    gap: 25px;
+}
+
+.nav .navbar .nav_links .nav_item {
+    list-style: none;
+}
+
+.nav .navbar .nav_links .nav_item .nav_link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.16rem;
+}
+
+/* Banner Content */
+.banner .banner_content {
+    max-width: 870px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.banner .banner_content .banner_title {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-top: 100px;
+}
+
+.banner .banner_content .banner_description {
+    margin: 32px 0;
+}
+
+.banner .banner_image {
+    width: 100%;
+}
+
+/* Team and Feature Styles */
+.teams {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.teams .team_image_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.teams .team_image_container img {
+    width: 100%;
+}
+
+.teams .features {
+    /* margin-left: 50px; */
+    max-width: 540px;
+}
+
+.teams .features .feature_title {
+    font-weight: bold;
+    font-size: 2.8rem;
+}
+
+.teams .features .feature_description {
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 24px 0 32px;
+    text-align: justify;
+}
+
+/* Will Love Enjoy Styles */
+.will_love_enjoy {
+    gap: 145px;
+}
+
+.will_love_enjoy_content {
+    max-width: 585px;
+}
+
+.will_love_enjoy_title {
+    border-left: 5px solid #FF900E;
+    margin-bottom: 24px;
+    padding-left: 20px;
+    max-width: 465px;
+}
+
+.will_love_enjoy_description {
+    margin-bottom: 30px;
+}
+
+.boxes {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box {
+    padding: 30px 38px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+
+.box_title {
+    font-weight: 600;
+    font-size: 1.25rem;
+
+}
+
+.box_description {
+    margin-top: 10px;
+}
+
+.will_love_enjoy_image img {
+    max-width: 100%;
+}
+
+.will_love_enjoy_image button {
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 40px;
+    margin-left: -90px;
+    margin-top: -75px;
+}
+
+.year {
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 70px;
+}
+
+/* Facts Styles */
+.facts,
+.will_love_enjoy,
+.sponsors,
+footer {
+    margin: 0 20px;
+}
+
+.facts_title {
+    margin-bottom: 24px;
+}
+
+.facts_description {
+    max-width: 540px;
+    margin-bottom: 100px;
+}
+
+.facts_boxes {
+    gap: 125px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.fact_box {
+    border: 1px solid #FF900E;
+    padding: 36px 55px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.fact_box_count {
+    margin: 10px 0 5px;
+}
+
+/* Sponsors Styles */
+.sponsors {
+    text-align: center;
+}
+
+.sponsors_title {
+    margin-bottom: 40px;
+}
+
+.sponsors_description {
+    margin-bottom: 50px;
+}
+
+.sponsors_icons {
+    gap: 155px;
+}
+
+.sponsors_icons img {
+    max-width: 165px;
+    max-height: 50px;
+    filter: grayscale(100%);
+}
+
+/* Header Styles */
+.copyright {
+    margin-top: 125px;
+    background-color: #FFF4E7;
+    padding: 40px 0;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+
+/* Responsive For Header */
+@media screen and (max-width: 575px) {
+
+    .navbar,
+    .nav_links,
+    .teams,
+    .will_love_enjoy,
+    .boxes {
+        flex-direction: column;
+    }
+
+    .sponsors_icons {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+        justify-items: center;
+    }
+
+    .sponsors_icons img {
+        max-width: 85px;
+        max-height: 25px;
+    }
+
+    .facts_boxes {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
+        word-break: break-word;
+    }
+
+    .teams .team_image_container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .teams .features,
+    .will_love_enjoy,
+    .facts {
+        padding: 25px 25px 0;
+    }
+
+    .copyright {
+        margin: 0 25px;
+        margin-top: 125px;
+    }
+
+    .nav .brand,
+    .banner .banner_title,
+    .teams .features .feature_title {
+        white-space: normal;
+        word-break: break-word;
+    }
+
+    /* .will_love_enjoy_image {
+        border: 2px solid red;
+        max-width: 525px;
+        max-height: 695px;
+    } */
+
+    .will_love_enjoy_title {
+        word-break: break-word;
+    }
+
+    .sponsors_title {
+        word-break: break-word;
+    }
+
+    .will_love_enjoy_image {
+        margin-left: 50px;
+    }
+
+    .will_love_enjoy_image img {
+        max-width: 100%;
+    }
+
+    .will_love_enjoy_image button {
+        font-weight: 500;
+        font-size: 1rem;
+        line-height: 20px;
+        margin-left: -45px;
+        margin-top: -75px;
+    }
+
+    .year {
+        font-weight: bold;
+        font-size: 2.25rem;
+        line-height: 40px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .teams {
+        flex-direction: column;
+    }
+
+    .teams .team_image_container {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 20px;
+    }
+
+    .teams .features {
+        margin-top: 25px;
+    }
+
+    .nav .brand {
+        white-space: normal;
+        word-break: break-word;
+    }
+}
