@@ -1,0 +1,499 @@
+/*=============== Fonts ===============*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+.inter_regular {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.noto_serif_regular {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/*=============== Global Styles ===============*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+section {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section {
+    margin-top: 120px;
+}
+
+/*=============== Shared Styles ===============*/
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+}
+
+.justify_between {
+    justify-content: space-between;
+}
+
+.items_center {
+    align-items: center;
+}
+
+.text_gray_50 {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.font_bold {
+    font-weight: 700;
+}
+
+.font_22 {
+    font-size: 1.375rem;
+}
+
+.font_50 {
+    font-size: 3.125rem;
+}
+
+.primary_color {
+    color: #E95A08;
+}
+
+.primary_bg {
+    background-color: #E95A08;
+}
+
+/*=============== Header Styles ===============*/
+.status_bar {
+    display: none;
+    padding: 18px 25px 13px;
+}
+
+.status_items {
+    gap: 8px;
+}
+
+.navbar {
+    margin-bottom: 120px;
+}
+
+.navbar ul li,
+.status_bar ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #8987A1;
+    font-weight: bold;
+}
+
+.navbar ul>li:last-child a {
+    font-weight: 400;
+}
+
+ul>li:first-child a {
+    color: #252432;
+}
+
+ul>li:last-child a {
+    color: #000;
+}
+
+.brand_logo {
+    max-width: 135px;
+}
+
+.nav_items {
+    gap: 48px;
+}
+
+.hero {
+    padding-top: 105px;
+}
+
+.hero_title {
+    font-size: 4rem;
+    margin-bottom: 15px;
+}
+
+/*=============== Responsive Header ===============*/
+@media screen and (max-width: 575px) {
+    header {
+        margin: 0 16px;
+    }
+
+    .status_bar {
+        display: flex;
+    }
+
+    .nav_items>*:nth-child(-n+3) {
+        display: none;
+    }
+
+    .brand_logo {
+        max-width: 65px;
+    }
+
+    .hero {
+        flex-direction: column-reverse;
+        gap: 28px;
+        padding-top: 0;
+        margin-bottom: 65px;
+    }
+
+    .navbar {
+        margin-bottom: 28px;
+    }
+
+    .hero_image img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .hero_title {
+        font-size: 24px;
+    }
+
+    .hero_description {
+        font-size: 14px;
+    }
+}
+
+/*=============== Our Plants Styles ===============*/
+.our_plants {
+    text-align: center;
+}
+
+.our_plants_description {
+    margin: 15px 0 50px;
+}
+
+.our_plants_cards {
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 30px;
+    column-gap: 20px;
+}
+
+.card {
+    text-align: center;
+}
+
+.card_description {
+    font-weight: 500;
+    line-height: 33px;
+    margin: 30px 0 20px;
+}
+
+.card_btn {
+    width: 100%;
+    border: none;
+    font-weight: 600;
+    font-size: 1rem;
+    color: white;
+    margin-top: 30px;
+    padding: 19px 0;
+}
+
+/*=============== Responsive Our Plants ===============*/
+@media screen and (max-width: 575px) {
+    section {
+        margin-top: 60px;
+    }
+
+    .our_plants {
+        margin: 0 16px;
+    }
+
+    .our_plants_title {
+        font-size: 1.5rem;
+    }
+
+    .our_plants_description {
+        font-weight: 400;
+        font-size: 0.875rem;
+        margin-bottom: 30px;
+    }
+
+    .our_plants_cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .card_description {
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .card_price {
+        font-size: 1rem;
+    }
+}
+
+/*=============== Flower and Plants Styles ===============*/
+.fp_lover {
+    gap: 60px;
+}
+
+.fp_lover_images {
+    position: relative;
+}
+
+.fp_lover_img {
+    max-width: 540px;
+    height: auto;
+    display: block;
+}
+
+.fp_lover_logo {
+    max-width: 285px;
+    height: auto;
+    display: block;
+    position: absolute;
+    right: -20%;
+    top: -20%;
+}
+
+.fp_lover_content {
+    max-width: 540px;
+}
+
+.fp_lover_description {
+    padding-left: 20px;
+}
+
+.fp_lover_description li {
+    margin-top: 20px;
+}
+
+/*=============== Responsive Flower and Plant ===============*/
+@media screen and (max-width: 575px) {
+    .fp_lover {
+        flex-direction: column;
+        margin: 0 16px;
+        margin-top: 40px;
+        gap: 18px;
+    }
+
+    .fp_lover_title {
+        font-size: 1.5rem;
+    }
+
+    .fp_lover_description {
+        font-size: 0.875rem;
+    }
+
+    .fp_lover_img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .fp_lover_logo {
+        display: none;
+    }
+
+    .fp_lover_description {
+        padding-left: 16px;
+    }
+
+    .fp_lover_description li {
+        margin-top: 16px;
+    }
+}
+
+/*=============== Latest Deals Styles ===============*/
+.latest_deals_description {
+    margin: 16px 0 120px;
+}
+
+.latest_deals_cards {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+    grid-template-areas:
+        "c1 c3 c3"
+        "c2 c3 c3";
+    gap: 25px;
+    color: white;
+}
+
+.latest_deals_cards .card {
+    border-radius: 8px;
+    padding: 65px 48px;
+    background-size: cover;
+    background-position: center;
+}
+
+.latest_deals_cards .card a {
+    font-size: 1rem;
+    color: white;
+}
+
+.latest_deals_cards .card h4 {
+    font-size: 1.25rem;
+}
+
+.card1 {
+    grid-area: c1;
+    background-image: url('./assets/deal-bloom.png');
+}
+
+.card2 {
+    grid-area: c2;
+    background-image: url('./assets/deal-ana.png');
+}
+
+.card3 {
+    flex-direction: column;
+    justify-content: center;
+    grid-area: c3;
+    background-image: url('./assets/deal-zabo.png');
+}
+
+/*=============== Responsive Latest Deals ===============*/
+@media screen and (max-width: 575px) {
+    .latest_deals {
+        padding: 0 16px;
+    }
+
+    .latest_deals_cards {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "c1 c1 c1"
+            "c2 c2 c2"
+            "c3 c3 c3";
+        gap: 20px;
+    }
+
+    .latest_deals_title {
+        font-size: 24px;
+    }
+
+    .latest_deals_description {
+        margin: 16px 0 50px;
+    }
+}
+
+/*=============== Footer Styles ===============*/
+.footer_hero {
+    margin-top: 120px;
+    background-image: url('./assets/news-letter-bg.png');
+    background-size: cover;
+    background-position: center;
+    padding: 200px 300px;
+    text-align: center;
+}
+
+.footer_hero_title {
+    color: white;
+    margin-bottom: 25px;
+}
+
+.footer_hero_email_field {
+    padding: 20px 20px;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.footer_hero_submit_btn {
+    padding: 20px 50px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+footer section {
+    margin-top: 0;
+}
+
+.footer {
+    margin: 50px 0;
+    align-items: flex-start;
+    gap: 110px;
+}
+
+.footer ul li {
+    list-style: none;
+    margin-bottom: 32px;
+}
+
+.footer ul li a {
+    color: #6B7280;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.footer ul>li:last-child {
+    margin-bottom: 0;
+}
+
+.footer_col4 {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    align-items: center;
+    gap: 24px;
+}
+
+/*=============== Responsive Footer ===============*/
+@media screen and (max-width: 575px) {
+    .footer_hero {
+        margin-top: 45px;
+        padding: 110px 35px 65px;
+        text-align: center;
+    }
+
+    .footer_hero_title {
+        font-size: 1.5rem;
+    }
+
+    .footer_hero_email_field {
+        padding: 15px 20px;
+    }
+
+    .footer_hero_submit_btn {
+        padding: 15px 12px;
+    }
+
+    .footer {
+        padding: 0 16px;
+        margin: 40px 0;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer_logo {
+        max-width: 180px;
+        margin-bottom: 16px;
+    }
+
+    .footer ul li {
+        margin-bottom: 10px;
+    }
+
+    .footer_description {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .footer_col4 img {
+        max-width: 100%;
+    }
+}
