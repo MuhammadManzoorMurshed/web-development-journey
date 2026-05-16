@@ -20,6 +20,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 header,
@@ -127,6 +128,85 @@ ul>li:last-child a {
     margin-bottom: 15px;
 }
 
+/*=============== Responsive Tablets and Smaller Desktops ===============*/
+@media screen and (max-width: 1180px) {
+    header, section, .footer {
+        padding: 0 24px;
+    }
+    .footer_hero {
+        padding: 150px 100px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .nav_items {
+        gap: 24px;
+    }
+    .hero {
+        flex-direction: column-reverse;
+        gap: 40px;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .hero_content {
+        max-width: 100%;
+    }
+    .our_plants_cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .fp_lover {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+    .fp_lover_content {
+        max-width: 100%;
+    }
+    .fp_lover_description {
+        text-align: left;
+    }
+    .latest_deals_cards {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            "c1 c2"
+            "c3 c3";
+    }
+    .footer {
+        flex-wrap: wrap;
+        gap: 40px;
+        justify-content: center;
+        text-align: center;
+    }
+    .footer_col1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer_hero {
+        padding: 100px 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .our_plants_cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .status_bar {
+        display: flex;
+    }
+    .nav_items>*:nth-child(-n+3) {
+        display: none;
+    }
+    .brand_logo {
+        max-width: 100px;
+    }
+}
+
 /*=============== Responsive Header ===============*/
 @media screen and (max-width: 575px) {
     header {
@@ -227,7 +307,7 @@ ul>li:last-child a {
     }
 
     .our_plants_cards {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
     }
 
     .card img {
@@ -382,6 +462,10 @@ ul>li:last-child a {
         gap: 20px;
     }
 
+    .latest_deals_cards .card {
+        padding: 40px 20px;
+    }
+
     .latest_deals_title {
         font-size: 24px;
     }
@@ -456,12 +540,21 @@ footer section {
 @media screen and (max-width: 575px) {
     .footer_hero {
         margin-top: 45px;
-        padding: 110px 35px 65px;
+        padding: 80px 20px 65px;
         text-align: center;
     }
 
     .footer_hero_title {
         font-size: 1.5rem;
+    }
+
+    .subscribe.flex {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .footer_hero_email_field, .footer_hero_submit_btn {
+        width: 100%;
     }
 
     .footer_hero_email_field {

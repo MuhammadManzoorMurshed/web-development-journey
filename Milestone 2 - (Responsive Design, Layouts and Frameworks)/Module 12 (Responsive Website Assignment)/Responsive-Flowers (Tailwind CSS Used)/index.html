@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/de0462cd56.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+        @theme {
+            --color-primary: #E95A08;
+            --color-gray-50: rgba(0, 0, 0, 0.5);
+            --font-noto: "Noto Serif", serif;
+            --font-inter: "Inter", sans-serif;
+        }
+    </style>
+</head>
+
+<body class="font-noto">
+    <header class="max-w-[1140px] mx-auto px-[20px] xl:px-0">
+        <div>
+            <!-- Status Bar -->
+            <div class="hidden max-[768px]:flex items-center justify-between pt-[18px] pb-[13px] px-[25px]">
+                <h4 class="font-bold">9:41</h4>
+                <ul class="flex gap-[8px] items-center">
+                    <li><img class="h-[13px]" src="./assets/signal.png" alt=""></li>
+                    <li><i class="fa-solid fa-wifi"></i></li>
+                    <li><i class="fa-solid fa-battery-three-quarters"></i></li>
+                </ul>
+            </div>
+
+            <!-- Navbar -->
+            <div class="flex justify-between items-center mb-[120px] max-[575px]:mb-[28px]">
+                <img class="max-w-[135px] max-[768px]:max-w-[100px] max-[575px]:max-w-[65px]" src="./assets/logo.png" alt="">
+
+                <ul class="flex gap-[48px] items-center max-[991px]:gap-[20px] max-[768px]:gap-0">
+                    <li class="max-[768px]:hidden"><a class="text-[#252432] font-bold hover:text-primary" href="">Home</a></li>
+                    <li class="max-[768px]:hidden"><a class="text-[#8987A1] font-bold hover:text-primary" href="">Shop</a></li>
+                    <li class="max-[768px]:hidden"><a class="text-[#8987A1] font-bold hover:text-primary" href="">About Us</a></li>
+                    <li><a class="text-[#000]" href=""><i class="fa-solid fa-cart-plus"></i> Cart ($ 56)</a></li>
+                </ul>
+            </div>
+
+            <!-- Hero -->
+            <div class="flex justify-between items-center pt-[105px] max-[991px]:flex-col-reverse max-[991px]:pt-[50px] max-[991px]:gap-[40px] max-[991px]:text-center max-[575px]:pt-0 max-[575px]:gap-[28px] max-[575px]:mb-[65px]">
+                <div class="max-w-[570px] max-[991px]:max-w-full">
+                    <h1 class="font-bold text-[4rem] leading-tight mb-[15px] max-[768px]:text-[3rem] max-[575px]:text-[24px]">ALWAYS <span
+                            class="text-primary">FRESH<br>FLOWERS</span>
+                    </h1>
+                    <p class="text-gray-50 text-[22px] font-inter max-[575px]:text-[14px]">Indulge your senses with the beauty
+                        and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide
+                        variety of fresh flowers that are perfect for any occasion.</p>
+                </div>
+                <div>
+                    <img class="max-w-full h-auto block mx-auto" src="./assets/hero-flower.png" alt="An Image">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Our Plants -->
+        <section class="max-w-[1140px] mx-auto mt-[120px] max-[575px]:mt-[60px] px-[20px] xl:px-0 text-center">
+            <div>
+                <h2 class="text-[50px] font-bold max-[575px]:text-[24px]"><span class="text-primary">Our</span> Plant</h2>
+                <p class="font-inter text-[22px] text-gray-50 mt-[15px] mb-[50px] max-[575px]:text-[14px] max-[575px]:mb-[30px]">Indulge your senses with the beauty
+                    and fragrance of our fresh flower shop. From classic roses to exotic blooms, we
+                    offer a wide variety of fresh.</p>
+
+                <div class="grid grid-cols-4 gap-y-[30px] gap-x-[20px] font-inter max-[991px]:grid-cols-3 max-[768px]:grid-cols-2 max-[575px]:grid-cols-1 text-center">
+                    <!-- Cards -->
+                    <div class="">
+                        <img src="./assets/sample-flower-image.png" alt="" class="max-w-full h-auto block mx-auto">
+                        <p class="font-medium leading-[33px] text-[22px] mt-[30px] mb-[20px] max-[575px]:text-[16px] max-[575px]:mt-[10px] max-[575px]:mb-[10px]">Lily Blossom</p>
+                        <h4 class="font-bold text-[22px] max-[575px]:text-[16px]">20 USD</h4>
+                        <button class="w-full border-none font-semibold text-[16px] text-white bg-primary mt-[30px] py-[19px]">ADD TO CART</button>
+                    </div>
+                    <div class="">
+                        <img src="./assets/sample-flower-image.png" alt="" class="max-w-full h-auto block mx-auto">
+                        <p class="font-medium leading-[33px] text-[22px] mt-[30px] mb-[20px] max-[575px]:text-[16px] max-[575px]:mt-[10px] max-[575px]:mb-[10px]">Lily Blossom</p>
+                        <h4 class="font-bold text-[22px] max-[575px]:text-[16px]">20 USD</h4>
+                        <button class="w-full border-none font-semibold text-[16px] text-white bg-primary mt-[30px] py-[19px]">ADD TO CART</button>
+                    </div>
+                    <div class="">
+                        <img src="./assets/sample-flower-image.png" alt="" class="max-w-full h-auto block mx-auto">
+                        <p class="font-medium leading-[33px] text-[22px] mt-[30px] mb-[20px] max-[575px]:text-[16px] max-[575px]:mt-[10px] max-[575px]:mb-[10px]">Lily Blossom</p>
+                        <h4 class="font-bold text-[22px] max-[575px]:text-[16px]">20 USD</h4>
+                        <button class="w-full border-none font-semibold text-[16px] text-white bg-primary mt-[30px] py-[19px]">ADD TO CART</button>
+                    </div>
+                    <div class="">
+                        <img src="./assets/sample-flower-image.png" alt="" class="max-w-full h-auto block mx-auto">
+                        <p class="font-medium leading-[33px] text-[22px] mt-[30px] mb-[20px] max-[575px]:text-[16px] max-[575px]:mt-[10px] max-[575px]:mb-[10px]">Lily Blossom</p>
+                        <h4 class="font-bold text-[22px] max-[575px]:text-[16px]">20 USD</h4>
+                        <button class="w-full border-none font-semibold text-[16px] text-white bg-primary mt-[30px] py-[19px]">ADD TO CART</button>
+                    </div>
+                    <div class="">
+                        <img src="./assets/sample-flower-image.png" alt="" class="max-w-full h-auto block mx-auto">
+                        <p class="font-medium leading-[33px] text-[22px] mt-[30px] mb-[20px] max-[575px]:text-[16px] max-[575px]:mt-[10px] max-[575px]:mb-[10px]">Lily Blossom</p>
+                        <h4 class="font-bold text-[22px] max-[575px]:text-[16px]">20 USD</h4>
+                        <button class="w-full border-none font-semibold text-[16px] text-white bg-primary mt-[30px] py-[19px]">ADD TO CART</button>
+                    </div>
+                    <div class="">
+                        <img src="./assets/sample-flower-image.png" alt="" class="max-w-full h-auto block mx-auto">
+                        <p class="font-medium leading-[33px] text-[22px] mt-[30px] mb-[20px] max-[575px]:text-[16px] max-[575px]:mt-[10px] max-[575px]:mb-[10px]">Lily Blossom</p>
+                        <h4 class="font-bold text-[22px] max-[575px]:text-[16px]">20 USD</h4>
+                        <button class="w-full border-none font-semibold text-[16px] text-white bg-primary mt-[30px] py-[19px]">ADD TO CART</button>
+                    </div>
+                    <div class="">
+                        <img src="./assets/sample-flower-image.png" alt="" class="max-w-full h-auto block mx-auto">
+                        <p class="font-medium leading-[33px] text-[22px] mt-[30px] mb-[20px] max-[575px]:text-[16px] max-[575px]:mt-[10px] max-[575px]:mb-[10px]">Lily Blossom</p>
+                        <h4 class="font-bold text-[22px] max-[575px]:text-[16px]">20 USD</h4>
+                        <button class="w-full border-none font-semibold text-[16px] text-white bg-primary mt-[30px] py-[19px]">ADD TO CART</button>
+                    </div>
+                    <div class="">
+                        <img src="./assets/sample-flower-image.png" alt="" class="max-w-full h-auto block mx-auto">
+                        <p class="font-medium leading-[33px] text-[22px] mt-[30px] mb-[20px] max-[575px]:text-[16px] max-[575px]:mt-[10px] max-[575px]:mb-[10px]">Lily Blossom</p>
+                        <h4 class="font-bold text-[22px] max-[575px]:text-[16px]">20 USD</h4>
+                        <button class="w-full border-none font-semibold text-[16px] text-white bg-primary mt-[30px] py-[19px]">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Flower & Plants Lover -->
+        <section class="max-w-[1140px] mx-auto mt-[120px] max-[575px]:mt-[100px] px-[20px] xl:px-0">
+            <div class="flex justify-between items-center gap-[60px] max-[991px]:flex-col max-[991px]:text-center max-[991px]:gap-[40px] max-[575px]:gap-[18px] max-[575px]:mt-[40px]">
+                <div class="relative max-[991px]:mx-auto">
+                    <img src="./assets/flower-store.png" alt="" class="max-w-[540px] max-[575px]:max-w-full h-auto block mx-auto">
+                    <img src="./assets/trusted-badge.png" alt="" class="max-w-[285px] h-auto block absolute -right-[20%] -top-[20%] max-[575px]:hidden">
+                </div>
+                <div class="max-w-[540px] max-[991px]:max-w-full">
+                    <h2 class="text-[50px] font-bold max-[575px]:text-[24px]">Flower & Plants Lover</h2>
+                    <ul class="text-gray-50 font-inter pl-[20px] list-disc max-[991px]:text-left max-[575px]:text-[14px] max-[575px]:pl-[16px]">
+                        <li class="mt-[20px] max-[575px]:mt-[16px]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic
+                            roses to exotic blooms, we
+                            offer a wide variety of fresh.</li>
+                        <li class="mt-[20px] max-[575px]:mt-[16px]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic
+                            roses to exotic blooms, we
+                            offer a wide variety of fresh.</li>
+                        <li class="mt-[20px] max-[575px]:mt-[16px]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic
+                            roses to exotic blooms, we
+                            offer a wide variety of fresh.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Latest Deals -->
+        <section class="max-w-[1140px] mx-auto mt-[120px] max-[575px]:mt-[100px] px-[20px] xl:px-0">
+            <div class="text-center">
+                <h2 class="text-[50px] font-bold max-[575px]:text-[24px]"><span class="text-primary">Latest</span> Deals</h2>
+                <p class="font-inter text-[22px] text-gray-50 mt-[16px] mb-[120px] max-[575px]:text-[14px] max-[575px]:mb-[50px]">
+                    Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to
+                    exotic blooms, we
+                    offer a wide variety of fresh.
+                </p>
+
+                <div class="grid grid-cols-3 grid-rows-2 gap-[25px] text-white max-[991px]:grid-cols-2 max-[991px]:grid-rows-2 max-[768px]:grid-cols-1 max-[768px]:grid-rows-3 max-[575px]:gap-[20px]">
+                    <div class="col-start-1 row-start-1 max-[768px]:col-start-auto max-[768px]:row-start-auto rounded-[8px] py-[65px] px-[48px] bg-cover bg-center bg-[url('./assets/deal-bloom.png')] max-[575px]:py-[50px]">
+                        <h4 class="text-[20px] font-bold mb-2">60% Off | Bloom Plant</h4>
+                        <a href="" class="text-[16px] text-white underline">Shop Now</a>
+                    </div>
+                    <div class="col-start-1 row-start-2 max-[991px]:col-start-2 max-[991px]:row-start-1 max-[768px]:col-start-auto max-[768px]:row-start-auto rounded-[8px] py-[65px] px-[48px] bg-cover bg-center bg-[url('./assets/deal-ana.png')] max-[575px]:py-[50px]">
+                        <h4 class="text-[20px] font-bold mb-2">30% Off | Ana Plant</h4>
+                        <a href="" class="text-[16px] text-white underline">Shop Now</a>
+                    </div>
+                    <div class="col-start-2 col-span-2 row-start-1 row-span-2 max-[991px]:col-start-1 max-[991px]:col-span-2 max-[991px]:row-start-2 max-[991px]:row-span-1 max-[768px]:col-start-auto max-[768px]:row-start-auto max-[768px]:col-span-1 max-[768px]:row-span-1 rounded-[8px] py-[65px] px-[48px] bg-cover bg-center bg-[url('./assets/deal-zabo.png')] flex flex-col justify-center max-[575px]:py-[50px]">
+                        <h4 class="text-[20px] font-bold mb-2">25% Off | Zabo Plant</h4>
+                        <a href="" class="text-[16px] text-white underline">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="mt-[120px] bg-[url('./assets/news-letter-bg.png')] bg-cover bg-center py-[200px] px-[300px] text-center max-[1180px]:px-[100px] max-[1180px]:py-[150px] max-[991px]:px-[50px] max-[991px]:py-[100px] max-[575px]:mt-[45px] max-[575px]:py-[110px] max-[575px]:px-[35px]">
+            <h2 class="font-bold text-[50px] text-white mb-[25px] max-[575px]:text-[24px]">Join the colorful Bunch</h2>
+            <div class="flex justify-center max-[575px]:flex-col">
+                <input type="email" class="py-[20px] px-[20px] w-full text-[16px] max-w-[500px] outline-none max-[575px]:py-[15px] max-[575px]:px-[20px] text-black" placeholder="Write email">
+                <input type="submit" class="py-[20px] px-[50px] border-none text-white font-semibold text-[16px] bg-primary cursor-pointer max-[575px]:py-[15px] max-[575px]:px-[12px]" value="Subscribe">
+            </div>
+        </div>
+        <section class="max-w-[1140px] mx-auto px-[20px] xl:px-0 max-[575px]:mt-0">
+            <div class="my-[50px] flex justify-between items-start gap-[110px] max-[991px]:flex-wrap max-[991px]:justify-center max-[991px]:text-center max-[991px]:gap-[40px] max-[768px]:flex-col max-[768px]:items-center max-[768px]:gap-[30px] max-[575px]:my-[40px] max-[575px]:gap-[20px]">
+                <div class="max-w-[300px] max-[991px]:max-w-full max-[991px]:flex max-[991px]:flex-col max-[991px]:items-center">
+                    <img src="./assets/logo.png" alt="" class="max-w-[135px] mb-[15px] max-[575px]:max-w-[180px] max-[575px]:mb-[16px]">
+                    <p class="text-[22px] text-gray-50 font-inter max-[575px]:text-[16px] max-[575px]:leading-[24px]">Indulge your senses with the beauty and
+                        fragrance of our fresh flower shop.</p>
+                </div>
+                <div>
+                    <ul class="font-inter">
+                        <li class="mb-[32px] max-[575px]:mb-[10px]"><a href="" class="text-[#6B7280]">Home</a></li>
+                        <li class="mb-[32px] max-[575px]:mb-[10px]"><a href="" class="text-[#6B7280]">About</a></li>
+                        <li class="mb-[32px] max-[575px]:mb-[10px]"><a href="" class="text-[#6B7280]">Blog</a></li>
+                        <li class="mb-[32px] max-[575px]:mb-[10px]"><a href="" class="text-[#6B7280]">FAQ</a></li>
+                        <li class="max-[575px]:mb-[10px]"><a href="" class="text-[#6B7280]">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="font-inter">
+                        <li class="mb-[32px] max-[575px]:mb-[10px]"><a href="" class="text-[#6B7280]">Features</a></li>
+                        <li class="mb-[32px] max-[575px]:mb-[10px]"><a href="" class="text-[#6B7280]">Pricing</a></li>
+                        <li class="mb-[32px] max-[575px]:mb-[10px]"><a href="" class="text-[#6B7280]">Privacy Policy</a></li>
+                        <li class="mb-[32px] max-[575px]:mb-[10px]"><a href="" class="text-[#6B7280]">Terms of Service</a></li>
+                        <li class="max-[575px]:mb-[10px]"><a href="" class="text-[#6B7280]">Help Center</a></li>
+                    </ul>
+                </div>
+                <div class="grid grid-cols-4 items-center gap-[24px]">
+                    <a href=""><img src="./assets/icon-linkedin.png" alt="" class="max-w-full"></a>
+                    <a href=""><img src="./assets/icon-twitter.png" alt="" class="max-w-full"></a>
+                    <a href=""><img src="./assets/icon-facebook.png" alt="" class="max-w-full"></a>
+                    <a href=""><img src="./assets/icon-youtube.png" alt="" class="max-w-full"></a>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>
