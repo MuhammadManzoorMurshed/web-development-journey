@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payoo Home</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Daisy UI and Tailwind CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <style>
+        /* Fonts */
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+        .outfit-regular {
+            font-family: "Outfit", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+        }
+    </style>
+</head>
+
+<body class="bg-[#F4F5F7] outfit-regular max-w-[450px] mx-auto">
+    <header class="mx-auto pt-2 border-b border-[rgba(8,8,8,0.1)] pb-3 p-6 bg-white rounded-b-3xl">
+
+        <!-- Status Bar -->
+        <div class="status_bar flex justify-between items-center mb-3">
+            <div class="status_bar_time ">
+                <p class="font-semibold">9:41</p>
+            </div>
+            <div class="status_bar_icons">
+                <i class="fa-solid fa-signal"></i>
+                <i class="fa-solid fa-wifi mx-[5px]"></i>
+                <i class="fa-solid fa-battery-three-quarters"></i>
+            </div>
+        </div>
+
+        <!-- Available Balance -->
+        <div class="navbar flex justify-between items-center">
+            <div class="available_balance flex justify-between items-center gap-2">
+                <div class="logo">
+                    <img src="./Payoo-MFS-Resources/assets/Group.png" alt="">
+                </div>
+
+                <div class="balance">
+                    <h4 class="font-extrabold text-[18px] text-[#080808] mb-[6px]">$ <span
+                            id="available-balance">45000</span></h4>
+                    <p class="font-normal text-[14px] text-[rgba(8,8,8,0.5)]">Available Balance</p>
+                </div>
+            </div>
+
+            <div class="logout">
+                <button
+                    class="font-normal text-[14px] text-[rgba(8,8,8,0.5)] border rounded-lg border-[rgba(8,8,8,0.1)] p-[10px]"><i
+                        class="fa-solid fa-arrow-right-from-bracket rotate-180 mr-2"></i>Log Out</button>
+            </div>
+        </div>
+
+        <!-- Welcome Pyaooo -->
+        <section class="mt-8">
+            <div class="welcome">
+                <div class="flex">
+                    <img src="./Payoo-MFS-Resources/assets/fire.png" alt="" class=" w-6 h-6">
+                    <h2 class="font-bold text-[24px] leading-[30px] text-[#080808] mb-3">&nbsp;Welcome to Payooo!</h2>
+                </div>
+                <p class="font-normal text-base leading-[26px] text-[rgba(8,8,8,0.5)] mb-6">Enjoy easy and convenient
+                    financial
+                    services with us. Cashout charge is low and</p>
+            </div>
+
+            <!-- Welcome Payoo Cards -->
+            <div class="cards grid grid-cols-3 grid-rows-2 justify-center items-center gap-4">
+                <div id="add-money-card"
+                    class="card border rounded-xl border-[rgba(8,8,8,0.1)] py-[20px] cursor-pointer">
+                    <img src="./Payoo-MFS-Resources/assets/wallet1.png" alt="" class="w-6 h-6 mx-auto">
+                    <p class="mt-2 font-normal text-[14px] text-[rgba(8,8,8,0.7)] text-center">Add Money</p>
+                </div>
+
+                <div id="cashout-card"
+                    class="card border rounded-xl border-[rgba(8,8,8,0.1)] px-[26px] py-[20px] cursor-pointer">
+                    <img src="./Payoo-MFS-Resources/assets/send1.png" alt="" class="w-6 h-6 mx-auto">
+                    <p class="mt-2 font-normal text-[14px] text-[rgba(8,8,8,0.7)] text-center">Cashout</p>
+                </div>
+
+                <div id="transfer-money-card"
+                    class="card border rounded-xl border-[rgba(8,8,8,0.1)] py-[20px] cursor-pointer">
+                    <img src="./Payoo-MFS-Resources/assets/money1.png" alt="" class="w-6 h-6 mx-auto">
+                    <p class="mt-2 font-normal text-[14px] text-[rgba(8,8,8,0.7)] text-center">Transfer Money</p>
+                </div>
+
+                <div id="get-bonus-card"
+                    class="card border rounded-xl border-[rgba(8,8,8,0.1)] px-[26px] py-[20px] cursor-pointer">
+                    <img src="./Payoo-MFS-Resources/assets/bonus1.png" alt="" class="w-6 h-6 mx-auto">
+                    <p class="mt-2 font-normal text-[14px] text-[rgba(8,8,8,0.7)] text-center">Get Bonus</p>
+                </div>
+
+                <div id="pay-bill-card"
+                    class="card border rounded-xl border-[rgba(8,8,8,0.1)] px-[26px] py-[20px] cursor-pointer">
+                    <img src="./Payoo-MFS-Resources/assets/purse1.png" alt="" class="w-6 h-6 mx-auto">
+                    <p class="mt-2 font-normal text-[14px] text-[rgba(8,8,8,0.7)] text-center">Pay Bill</p>
+                </div>
+
+                <div id="transaction-card"
+                    class="card border rounded-xl border-[rgba(8,8,8,0.1)] px-[26px] py-[20px] cursor-pointer">
+                    <img src="./Payoo-MFS-Resources/assets/transaction1.png" alt="" class="w-6 h-6 mx-auto">
+                    <p class="mt-2 font-normal text-[14px] text-[rgba(8,8,8,0.7)] text-center">Transactions</p>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main class="max-w-[450px] mx-auto mt-8 px-6">
+        <div class="forms">
+            <!-- Add Money Form -->
+            <div id="add-money" class="form pb-8" style="display: none;">
+                <h3 class="font-semibold text-[18px] text-[#rgba(8,8,8,0.9)] pb-4">Add Money</h3>
+                <form action="" class=" bg-white p-6 rounded-3xl flex flex-col gap-4">
+                    <label for="bank" class="">
+                        <span class="font-medium text-base text-[rgba(8,8,8,0.7)] mb-3 block">Select A Bank</span>
+
+                        <div class="flex relative">
+                            <select name="bank" id="bank"
+                                class="select px-5 py-3 font-light text-base text-[#080808] border-none rounded-[32px] bg-[#F4F5F7] w-full">
+                                <option class="" value="" disabled selected>Select a bank</option>
+                                <option value="bangladesh-banak">Bangladesh Bank</option>
+                                <option value="duch-bangla-banak">Dutch Bangla Bank</option>
+                                <option value="islami-banak">Islami Bank</option>
+                            </select>
+                        </div>
+                    </label>
+
+                    <label for="account-number" class="">
+                        <span class="font-medium text-base text-[rgba(8,8,8,0.7)] mb-3 block">Bank Account Number</span>
+                        <input type="number" id="account-number" name="account-number"
+                            placeholder="Enter 11 digit account number"
+                            class="input px-5 py-4 font-light text-base text-[#080808] placeholder-opacity-40 rounded-[32px] border-none bg-[#F4F5F7] block w-full" />
+                    </label>
+
+                    <label for="amount" class="">
+                        <span class="font-medium text-base text-[rgba(8,8,8,0.7)] mb-3 block">Amount to Add</span>
+                        <input type="number" step="1" min="0" id="add-amount" name="amount"
+                            placeholder="Enter Amount to add"
+                            class="input px-5 py-4 font-light text-base text-[#080808] placeholder-opacity-40 rounded-[32px] border-none bg-[#F4F5F7] block w-full" />
+                    </label>
+                    <label for="pin" class="">
+                        <span class="font-medium text-base text-[rgba(8,8,8,0.7)] mb-3 block">Pin Number</span>
+                        <input type="password" maxlength="4" inputmode="numeric" id="add-pin" name="pin"
+                            placeholder="Enter 4 digit pin number"
+                            class="input px-5 py-4 font-light text-base text-[#080808] placeholder-opacity-40 rounded-[32px] border-none bg-[#F4F5F7] block w-full" />
+                    </label>
+
+                    <button id="add-money-btn"
+                        class="bg-[#0874F2] font-semibold text-[20px] py-4 text-white rounded-[32px]">Add
+                        Money</button>
+                </form>
+            </div>
+
+            <!-- Cashout Form -->
+            <div id="cashout" class="form pb-8" style="display: none;">
+                <h3 class="font-semibold text-[18px] text-[#rgba(8,8,8,0.9)] pb-4">Cash Out</h3>
+                <form action="" class=" bg-white p-6 rounded-3xl flex flex-col gap-4">
+                    <label for="agent-number" class="">
+                        <span class="font-medium text-base text-[rgba(8,8,8,0.7)] mb-3 block">Agent Number</span>
+                        <input type="number" id="agent-number" name="agent-number"
+                            placeholder="Enter 11 digit agent number"
+                            class="input px-5 py-4 font-light text-base text-[#080808] placeholder-opacity-40 rounded-[32px] border-none bg-[#F4F5F7] block w-full" />
+                    </label>
+
+                    <label for="amount" class="">
+                        <span class="font-medium text-base text-[rgba(8,8,8,0.7)] mb-3 block">Amount</span>
+                        <input type="number" step="1" min="0" id="cashout-amount" name="amount"
+                            placeholder="Enter amount to withdraw"
+                            class="input px-5 py-4 font-light text-base text-[#080808] placeholder-opacity-40 rounded-[32px] border-none bg-[#F4F5F7] block w-full" />
+                    </label>
+                    <label for="pin" class="">
+                        <span class="font-medium text-base text-[rgba(8,8,8,0.7)] mb-3 block">Pin Number</span>
+                        <input type="password" maxlength="4" inputmode="numeric" id="cashout-pin" name="pin"
+                            placeholder="Enter 4 digit pin number"
+                            class="input px-5 py-4 font-light text-base text-[#080808] placeholder-opacity-40 rounded-[32px] border-none bg-[#F4F5F7] block w-full" />
+                    </label>
+
+                    <button id="withdraw-money-btn"
+                        class="bg-[#0874F2] font-semibold text-[20px] py-4 text-white rounded-[32px]">Withdraw
+                        Money</button>
+                </form>
+            </div>
+
+            <!-- Transfer Money -->
+            <div id="transfer-money" class="form pb-8" style="display: none;">
+
+                <h3 class="font-semibold text-[18px] text-[#rgba(8,8,8,0.9)] pb-4">Transfer Money</h3>
+
+                <form action="" class=" bg-white p-6 rounded-3xl flex flex-col gap-4">
+
+                    <label for="account-number" class="">
+                        <span class="font-medium text-base text-[rgba(8,8,8,0.7)] mb-3 block">Agent Number</span>
+
+                        <input type="number" id="transfer-account-number" name="account-number"
+                            placeholder="Enter 11 digit account number"
+                            class="input px-5 py-4 font-light text-base text-[#080808] placeholder-opacity-40 rounded-[32px] border-none bg-[#F4F5F7] block w-full" />
+                    </label>
+
+                    <label for="amount" class="">
+                        <span class="font-medium text-base text-[rgba(8,8,8,0.7)] mb-3 block">Amount</span>
+                        <input type="number" step="1" min="0" id="transfer-amount" name="amount"
+                            placeholder="Enter amount to withdraw"
+                            class="input px-5 py-4 font-light text-base text-[#080808] placeholder-opacity-40 rounded-[32px] border-none bg-[#F4F5F7] block w-full" />
+                    </label>
+                    <label for="pin" class="">
+                        <span class="font-medium text-base text-[rgba(8,8,8,0.7)] mb-3 block">Pin Number</span>
+                        <input type="password" maxlength="4" inputmode="numeric" id="transfer-pin" name="pin"
+                            placeholder="Enter 4 digit pin number"
+                            class="input px-5 py-4 font-light text-base text-[#080808] placeholder-opacity-40 rounded-[32px] border-none bg-[#F4F5F7] block w-full" />
+                    </label>
+
+                    <button id="send-money-btn"
+                        class="bg-[#0874F2] font-semibold text-[20px] py-4 text-white rounded-[32px]">Send Now</button>
+                </form>
+            </div>
+
+            <!-- Get Bonus -->
+            <div id="get-bonus" class="form pb-8" style="display: none;">
+
+                <h3 class="font-semibold text-[18px] text-[#rgba(8,8,8,0.9)] pb-4">Get Bonus</h3>
+
+                <form action="" class=" bg-white p-6 rounded-3xl flex flex-col gap-4">
+
+                    <label for="bonus-coupon" class="">
+                        <span class="font-medium text-base text-[rgba(8,8,8,0.7)] mb-3 block">Enter Bonus Coupon</span>
+
+                        <input type="text" id="bonus-coupon" name="bonus-coupon" placeholder="Enter your coupon"
+                            class="input px-5 py-4 font-light text-base text-[#080808] placeholder-opacity-40 rounded-[32px] border-none bg-[#F4F5F7] block w-full" />
+                    </label>
+
+                    <button id="bonus-coupon-btn"
+                        class="bg-[#0874F2] font-semibold text-[20px] py-4 text-white rounded-[32px]">Get </button>
+                </form>
+            </div>
+
+            <!-- Pay Bill -->
+            <div id="pay-bill" class="form pb-8" style="display: none;">
+                <h3 class="font-semibold text-[18px] text-[#rgba(8,8,8,0.9)] pb-4">Pay Bill</h3>
+                <form action="" class=" bg-white p-6 rounded-3xl flex flex-col gap-4">
+                    <label for="pay-bill-bank" class="">
+                        <span class="font-medium text-base text-[rgba(8,8,8,0.7)] mb-3 block">Select To Pay</span>
+
+                        <div class="flex relative">
+                            <select name="pay-bill-bank" id="pay-bill-bank"
+                                class="select px-5 py-3 font-light text-base text-[#080808] border-none rounded-[32px] bg-[#F4F5F7] w-full">
+                                <option class="" value="" disabled selected>Select a bank</option>
+                                <option value="bangladesh-banak">Bangladesh Bank</option>
+                                <option value="duch-bangla-banak">Dutch Bangla Bank</option>
+                                <option value="islami-banak">Islami Bank</option>
+                            </select>
+                        </div>
+                    </label>
+
+                    <label for="pay-bill-account-number" class="">
+                        <span class="font-medium text-base text-[rgba(8,8,8,0.7)] mb-3 block">Bank Account Number</span>
+                        <input type="number" id="pay-bill-account-number" name="pay-bill-account-number"
+                            placeholder="Enter 11 digit account number"
+                            class="input px-5 py-4 font-light text-base text-[#080808] placeholder-opacity-40 rounded-[32px] border-none bg-[#F4F5F7] block w-full" />
+                    </label>
+
+                    <label for="pay-bill-amount" class="">
+                        <span class="font-medium text-base text-[rgba(8,8,8,0.7)] mb-3 block">Amount to Pay</span>
+                        <input type="number" step="1" min="0" id="pay-bill-amount" name="pay-bill-amount"
+                            placeholder="Enter Amount to pay"
+                            class="input px-5 py-4 font-light text-base text-[#080808] placeholder-opacity-40 rounded-[32px] border-none bg-[#F4F5F7] block w-full" />
+                    </label>
+                    <label for="pay-bill-pin" class="">
+                        <span class="font-medium text-base text-[rgba(8,8,8,0.7)] mb-3 block">Pin Number</span>
+                        <input type="password" maxlength="4" inputmode="numeric" id="pay-bill-pin" name="pay-bill-pin"
+                            placeholder="Enter 4 digit pin number"
+                            class="input px-5 py-4 font-light text-base text-[#080808] placeholder-opacity-40 rounded-[32px] border-none bg-[#F4F5F7] block w-full" />
+                    </label>
+
+                    <button id="pay-money-btn"
+                        class="bg-[#0874F2] font-semibold text-[20px] py-4 text-white rounded-[32px]">Pay Now</button>
+                </form>
+            </div>
+
+            <!-- Transaction -->
+            <div id="transactions" class="form pb-8" style="display: none;">
+                <div class="latest-payment-top-menu flex justify-between items-center mb-4">
+                    <h3 id="latest-payment-heading" class="font-semibold text-[18px] text-[#rgba(8,8,8,0.9)]">Transactions History</h3>
+                    <p class="font-normal text-[14px] text-[rgba(8,8,8,0.5)]">View All</p>
+                </div>
+
+                <div id="transactions-cards" class="transactions-cards flex flex-col gap-4">
+                    <!-- <div class="transactions-card flex justify-between items-center border rounded-xl border-[rgba(8,8,8,0.1)] bg-white px-4 py-[13px]">
+                        <div class="transactions-card-content flex justify-start items-center gap-2">
+                            <div>
+                                <img src="./Payoo-MFS-Resources/assets/wallet1.png" alt=""
+                                    class="bg-[rgba(8,8,8,0.05)] rounded-[32px] p-3">
+                            </div>
+
+                            <div>
+                                <h4 id="transaction-name" class="font-semibold text-base text-[rgba(8,8,8,0.7)] mb-2">Electricity Bill</h4>
+                                <p id="transaction-time" class="font-normal text-[12px] text-[rgba(8,8,8,0.7)]">Today 01:44 AM</p>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-ellipsis-vertical text-[rgba(8,8,8,0.7)]"></i>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Latest Payment -->
+        <div id="latest-payment" class="latest-payment pb-14">
+            <div class="latest-payment-top-menu flex justify-between items-center mb-4">
+                <h3 id="latest-payment-heading" class="font-semibold text-[18px] text-[#rgba(8,8,8,0.9)]">Latest Payment
+                </h3>
+                <p class="font-normal text-[14px] text-[rgba(8,8,8,0.5)]">View All</p>
+            </div>
+
+            <div class="latest-payment-cards flex flex-col gap-4">
+                <div
+                    class="latest-payment-card flex justify-between items-center border rounded-xl border-[rgba(8,8,8,0.1)] bg-white px-4 py-[13px]">
+                    <div class="latest-payment-card-content flex justify-start items-center gap-2">
+                        <div>
+                            <img src="./Payoo-MFS-Resources/assets/wallet1.png" alt=""
+                                class="bg-[rgba(8,8,8,0.05)] rounded-[32px] p-3">
+                        </div>
+
+                        <div>
+                            <h4 class="font-semibold text-base text-[rgba(8,8,8,0.7)] mb-2">Electricity Bill</h4>
+                            <p class="font-normal text-[12px] text-[rgba(8,8,8,0.7)]">Today 01:44 AM</p>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-ellipsis-vertical text-[rgba(8,8,8,0.7)]"></i>
+                </div>
+
+                <div
+                    class="latest-payment-card flex justify-between items-center border rounded-xl border-[rgba(8,8,8,0.1)] bg-white px-4 py-[13px]">
+                    <div class="latest-payment-card-content flex justify-start items-center gap-2">
+                        <div>
+                            <img src="./Payoo-MFS-Resources/assets/wallet1.png" alt=""
+                                class="bg-[rgba(8,8,8,0.05)] rounded-[32px] p-3">
+                        </div>
+
+                        <div>
+                            <h4 class="font-semibold text-base text-[rgba(8,8,8,0.7)] mb-2">Bank Deposit</h4>
+                            <p class="font-normal text-[12px] text-[rgba(8,8,8,0.7)]">Today 01:44 AM</p>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-ellipsis-vertical text-[rgba(8,8,8,0.7)]"></i>
+                </div>
+
+                <div
+                    class="latest-payment-card flex justify-between items-center border rounded-xl border-[rgba(8,8,8,0.1)] bg-white px-4 py-[13px]">
+                    <div class="latest-payment-card-content flex justify-start items-center gap-2">
+                        <div>
+                            <img src="./Payoo-MFS-Resources/assets/wallet1.png" alt=""
+                                class="bg-[rgba(8,8,8,0.05)] rounded-[32px] p-3">
+                        </div>
+
+                        <div>
+                            <h4 class="font-semibold text-base text-[rgba(8,8,8,0.7)] mb-2">Mobile Recharge</h4>
+                            <p class="font-normal text-[12px] text-[rgba(8,8,8,0.7)]">Today 01:44 AM</p>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-ellipsis-vertical text-[rgba(8,8,8,0.7)]"></i>
+                </div>
+
+                <div
+                    class="latest-payment-card flex justify-between items-center border rounded-xl border-[rgba(8,8,8,0.1)] bg-white px-4 py-[13px]">
+                    <div class="latest-payment-card-content flex justify-start items-center gap-2">
+                        <div>
+                            <img src="./Payoo-MFS-Resources/assets/wallet1.png" alt=""
+                                class="bg-[rgba(8,8,8,0.05)] rounded-[32px] p-3">
+                        </div>
+
+                        <div>
+                            <h4 class="font-semibold text-base text-[rgba(8,8,8,0.7)] mb-2">Gas Bill</h4>
+                            <p class="font-normal text-[12px] text-[rgba(8,8,8,0.7)]">Today 01:44 AM</p>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-ellipsis-vertical text-[rgba(8,8,8,0.7)]"></i>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="./home.js"></script>
+</body>
+
+</html>
