@@ -1,0 +1,110 @@
+[
+    {
+        "id": "TCK-1001",
+        "title": "Unable to reset password (OTP not received)",
+        "description": "Customer is not receiving OTP via SMS while trying to reset password. Tried multiple times, still no OTP.",
+        "customer": "Nusrat Jahan (Dhaka)",
+        "priority": "High",
+        "status": "Open",
+        "createdAt": "2026-01-02"
+    },
+    {
+        "id": "TCK-1002",
+        "title": "Payment succeeded but order not confirmed",
+        "description": "bKash payment completed, but order status remains 'Pending' and no confirmation SMS/email received.",
+        "customer": "Tanvir Ahmed (Chattogram)",
+        "priority": "Low",
+        "status": "Open",
+        "createdAt": "2026-01-03"
+    },
+    {
+        "id": "TCK-1003",
+        "title": "Invoice download button not working",
+        "description": "Clicking 'Download Invoice' does nothing on Chrome. Works on mobile browser sometimes.",
+        "customer": "Rafiul Islam (Sylhet)",
+        "priority": "Medium",
+        "status": "Open",
+        "createdAt": "2026-01-03"
+    },
+    {
+        "id": "TCK-1004",
+        "title": "Delivery address cannot be updated",
+        "description": "Customer tries to edit delivery address, but changes are not saved. Returns to previous address after refresh.",
+        "customer": "Mehjabin Chowdhury (Rajshahi)",
+        "priority": "High",
+        "status": "Open",
+        "createdAt": "2026-01-01"
+    },
+    {
+        "id": "TCK-1005",
+        "title": "App crashes on login screen",
+        "description": "Android app closes immediately after tapping 'Login'. Reinstall did not help.",
+        "customer": "Fahim Hossain (Khulna)",
+        "priority": "Medium",
+        "status": "Open",
+        "createdAt": "2026-01-03"
+    },
+    {
+        "id": "TCK-1006",
+        "title": "Wrong product delivered",
+        "description": "Customer received a different variant (color/size mismatch) than what was ordered.",
+        "customer": "Shirin Akter (Barishal)",
+        "priority": "High",
+        "status": "Open",
+        "createdAt": "2025-12-30"
+    },
+    {
+        "id": "TCK-1007",
+        "title": "Refund pending beyond 7 working days",
+        "description": "Refund was initiated, but customer hasn't received the amount yet. Needs verification with payment gateway.",
+        "customer": "Sabbir Rahman (Narayanganj)",
+        "priority": "High",
+        "status": "Open",
+        "createdAt": "2026-01-02"
+    },
+    {
+        "id": "TCK-1008",
+        "title": "Email notifications not sending",
+        "description": "Customer is not receiving any order updates via email, even though email address is correct.",
+        "customer": "Israt Jahan (Gazipur)",
+        "priority": "Medium",
+        "status": "Open",
+        "createdAt": "2026-01-02"
+    },
+    {
+        "id": "TCK-1009",
+        "title": "Cannot apply promo code at checkout",
+        "description": "Promo code shows 'Invalid' though it is active and within the campaign period.",
+        "customer": "Mominul Haque (Mymensingh)",
+        "priority": "Medium",
+        "status": "Open",
+        "createdAt": "2026-01-01"
+    },
+    {
+        "id": "TCK-1010",
+        "title": "Account locked after multiple attempts",
+        "description": "Account got locked after 3 failed login attempts. Customer requests unlock and guidance.",
+        "customer": "Sharif Uddin (Cumilla)",
+        "priority": "Low",
+        "status": "Open",
+        "createdAt": "2025-12-29"
+    },
+    {
+        "id": "TCK-1011",
+        "title": "Profile picture upload stuck at 0%",
+        "description": "Uploading profile picture stays at 0% and never finishes. Tested on Wi-Fi and mobile data.",
+        "customer": "Jannatul Ferdous (Rangpur)",
+        "priority": "Low",
+        "status": "Open",
+        "createdAt": "2026-01-03"
+    },
+    {
+        "id": "TCK-1012",
+        "title": "Duplicate charges for one transaction",
+        "description": "Customer sees two charges for one purchase. Needs reconciliation and immediate escalation.",
+        "customer": "Mahmudul Hasan (Dhaka)",
+        "priority": "Low",
+        "status": "Open",
+        "createdAt": "2026-01-03"
+    }
+]
