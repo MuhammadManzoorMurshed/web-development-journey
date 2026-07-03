@@ -1,0 +1,662 @@
+[
+    {
+        "image": "https://picsum.photos/seed/app-1/800/600",
+        "title": "Nova Notes",
+        "companyName": "NovaSoft Studio",
+        "id": 1,
+        "description": "Nova Notes is a clean, fast note-taking app designed for students and busy professionals.\n\nCreate folders, pin important notes, and search instantly with smart suggestions. You can also add checklists, links, and quick voice memos for hands-free capture.\n\nSync your notes across devices, keep drafts offline, and lock private pages with a passcode for extra safety.",
+        "size": 42.6,
+        "reviews": 18,
+        "ratingAvg": 4.6,
+        "downloads": 1,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 4200
+            },
+            {
+                "name": "2 star",
+                "count": 680
+            },
+            {
+                "name": "3 star",
+                "count": 1900
+            },
+            {
+                "name": "4 star",
+                "count": 6200
+            },
+            {
+                "name": "5 star",
+                "count": 9252
+            }
+        ]
+    },
+    {
+        "image": "https://picsum.photos/seed/app-2/800/600",
+        "title": "Pulse Fitness",
+        "companyName": "PulseWorks",
+        "id": 2,
+        "description": "Pulse Fitness helps you build a consistent workout habit with guided plans and simple tracking.\n\nChoose from strength, cardio, mobility, or quick 10-minute sessions. The app adapts weekly goals based on your progress and suggests rest days when needed.\n\nTrack your streaks, measure PRs, and export your history anytime so your progress is always yours.",
+        "size": 68.2,
+        "reviews": 23,
+        "ratingAvg": 4.4,
+        "downloads": 2.1,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 910
+            },
+            {
+                "name": "2 star",
+                "count": 9340
+            },
+            {
+                "name": "3 star",
+                "count": 4020
+            },
+            {
+                "name": "4 star",
+                "count": 7800
+            },
+            {
+                "name": "5 star",
+                "count": 9910
+            }
+        ]
+    },
+    {
+        "image": "https://picsum.photos/seed/app-3/800/600",
+        "title": "Budget Buddy",
+        "companyName": "FinLeaf Labs",
+        "id": 3,
+        "description": "Budget Buddy makes personal finance feel less scary by organizing spending into clear categories.\n\nAdd expenses in seconds, set monthly limits, and get gentle alerts when you’re close to overspending. You can also tag transactions for trips, shopping, or subscriptions.\n\nWeekly summaries show where your money goes, and you can export to CSV for deeper analysis whenever you want.",
+        "size": 35.9,
+        "reviews": 11,
+        "ratingAvg": 4.5,
+        "downloads": 9,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 3000
+            },
+            {
+                "name": "2 star",
+                "count": 520
+            },
+            {
+                "name": "3 star",
+                "count": 2200
+            },
+            {
+                "name": "4 star",
+                "count": 4100
+            },
+            {
+                "name": "5 star",
+                "count": 4784
+            }
+        ]
+    },
+    {
+        "image": "https://picsum.photos/seed/app-4/800/600",
+        "title": "SkyCast Weather",
+        "companyName": "MeteorIQ",
+        "id": 4,
+        "description": "SkyCast Weather gives you a quick, reliable forecast with a clean interface that’s easy to read.\n\nSee hourly rain probability, wind, and UV index with detailed charts. Custom alerts help you plan commutes, outdoor work, or weekend trips.\n\nSwitch between multiple cities, save favorites, and use offline snapshots when your connection is weak.",
+        "size": 28.4,
+        "reviews": 8.4,
+        "ratingAvg": 4.3,
+        "downloads": 7.6,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 2800
+            },
+            {
+                "name": "2 star",
+                "count": 910
+            },
+            {
+                "name": "3 star",
+                "count": 1600
+            },
+            {
+                "name": "4 star",
+                "count": 2600
+            },
+            {
+                "name": "5 star",
+                "count": 3560
+            }
+        ]
+    },
+    {
+        "image": "https://picsum.photos/seed/app-5/800/600",
+        "title": "Study Sprint",
+        "companyName": "FocusForge",
+        "id": 5,
+        "description": "Study Sprint is a Pomodoro-style focus timer built for deep study and distraction control.\n\nCreate sessions, short breaks, and long breaks with flexible presets. The app also lets you block distracting notifications while your timer runs.\n\nAt the end of each day, you’ll get a simple report showing your total focused minutes and your strongest study hours.",
+        "size": 19.7,
+        "reviews": 15,
+        "ratingAvg": 4.7,
+        "downloads": 1.5,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 2100
+            },
+            {
+                "name": "2 star",
+                "count": 30000
+            },
+            {
+                "name": "3 star",
+                "count": 1400
+            },
+            {
+                "name": "4 star",
+                "count": 4200
+            },
+            {
+                "name": "5 star",
+                "count": 9520
+            }
+        ]
+    },
+    {
+        "image": "https://picsum.photos/seed/app-6/800/600",
+        "title": "Recipe Rover",
+        "companyName": "KitchenCloud",
+        "id": 6,
+        "description": "Recipe Rover helps you discover new meals and keep your favorites in one place.\n\nFilter recipes by time, diet, ingredients, and cuisine. Step-by-step cooking mode keeps your screen awake and highlights the next action.\n\nBuild a shopping list from any recipe and share it with family so everyone stays on the same page.",
+        "size": 54.1,
+        "reviews": 10,
+        "ratingAvg": 4.2,
+        "downloads": 8,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 4410
+            },
+            {
+                "name": "2 star",
+                "count": 720
+            },
+            {
+                "name": "3 star",
+                "count": 230
+            },
+            {
+                "name": "4 star",
+                "count": 3200
+            },
+            {
+                "name": "5 star",
+                "count": 3581
+            }
+        ]
+    },
+    {
+        "image": "https://picsum.photos/seed/app-7/800/600",
+        "title": "Mindful Minutes",
+        "companyName": "CalmNest",
+        "id": 7,
+        "description": "Mindful Minutes offers short guided meditations and breathing exercises for everyday stress.\n\nPick from focus, sleep, anxiety relief, or quick resets that fit in five minutes. A gentle audio mixer lets you add rain, waves, or white noise.\n\nTrack your mood, keep a gratitude journal, and build a sustainable routine without pressure.",
+        "size": 47.3,
+        "reviews": 27.5,
+        "ratingAvg": 4.8,
+        "downloads": 3.2,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 260
+            },
+            {
+                "name": "2 star",
+                "count": 340
+            },
+            {
+                "name": "3 star",
+                "count": 19
+            },
+            {
+                "name": "4 star",
+                "count": 7200
+            },
+            {
+                "name": "5 star",
+                "count": 178
+            }
+        ]
+    },
+    {
+        "image": "https://picsum.photos/seed/app-8/800/600",
+        "title": "TripTrail",
+        "companyName": "WanderByte",
+        "id": 8,
+        "description": "TripTrail makes planning trips easy by keeping bookings, checklists, and notes together.\n\nAdd flights, hotels, and activities, then generate a simple day-by-day schedule. Offline access keeps your essentials available when roaming.\n\nShare your plan with friends, split responsibilities, and keep everyone updated when something changes.",
+        "size": 61.0,
+        "reviews": 9.32,
+        "ratingAvg": 4.1,
+        "downloads": 6.4,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 520
+            },
+            {
+                "name": "2 star",
+                "count": 780
+            },
+            {
+                "name": "3 star",
+                "count": 210
+            },
+            {
+                "name": "4 star",
+                "count": 2900
+            },
+            {
+                "name": "5 star",
+                "count": 3020
+            }
+        ]
+    },
+    {
+        "image": "https://picsum.photos/seed/app-9/800/600",
+        "title": "SafeVault",
+        "companyName": "SecurePeak",
+        "id": 9,
+        "description": "SafeVault is a lightweight password manager that focuses on speed and simplicity.\n\nStore logins, secure notes, and payment details with strong encryption. Autofill works across your favorite sites, and a password generator helps you avoid weak repeats.\n\nYou can lock the app with biometrics, export your data anytime, and keep an offline backup for peace of mind.",
+        "size": 24.9,
+        "reviews": 16,
+        "ratingAvg": 4.6,
+        "downloads": 1.4,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 330
+            },
+            {
+                "name": "2 star",
+                "count": 520
+            },
+            {
+                "name": "3 star",
+                "count": 2100
+            },
+            {
+                "name": "4 star",
+                "count": 520
+            },
+            {
+                "name": "5 star",
+                "count": 8635
+            }
+        ]
+    },
+    {
+        "image": "https://picsum.photos/seed/app-10/800/600",
+        "title": "PhotoPop Editor",
+        "companyName": "PixelHarbor",
+        "id": 10,
+        "description": "PhotoPop Editor gives you quick tools for clean, modern photo edits without the clutter.\n\nUse one-tap filters, crop and rotate precisely, and fine-tune lighting with simple sliders. Portrait mode includes subtle skin smoothing and background blur.\n\nExport in high quality, keep originals safe, and create consistent looks for social media posts.",
+        "size": 88.5,
+        "reviews": 30,
+        "ratingAvg": 4.3,
+        "downloads": 5,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 1900
+            },
+            {
+                "name": "2 star",
+                "count": 250
+            },
+            {
+                "name": "3 star",
+                "count": 6200
+            },
+            {
+                "name": "4 star",
+                "count": 880
+            },
+            {
+                "name": "5 star",
+                "count": 107
+            }
+        ]
+    },
+    {
+        "image": "https://picsum.photos/seed/app-11/800/600",
+        "title": "Learn Lingo",
+        "companyName": "LinguaSpring",
+        "id": 11,
+        "description": "Learn Lingo helps you practice vocabulary and speaking with bite-sized lessons.\n\nDaily drills include listening, reading, and quick speaking prompts. The app uses spaced repetition so you review words right before you forget them.\n\nDownload lessons for offline use, track your streak, and set realistic weekly goals that you can actually keep.",
+        "size": 72.3,
+        "reviews": 22,
+        "ratingAvg": 4.5,
+        "downloads": 2.7,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 820
+            },
+            {
+                "name": "2 star",
+                "count": 1200
+            },
+            {
+                "name": "3 star",
+                "count": 43
+            },
+            {
+                "name": "4 star",
+                "count": 7400
+            },
+            {
+                "name": "5 star",
+                "count": 838
+            }
+        ]
+    },
+    {
+        "image": "https://picsum.photos/seed/app-12/800/600",
+        "title": "TaskTide",
+        "companyName": "Orchid Tech",
+        "id": 12,
+        "description": "TaskTide is a to-do and habit tracker built to keep your day calm and organized.\n\nCreate projects, break tasks into subtasks, and set reminders that respect quiet hours. A simple calendar view helps you plan your week without overwhelm.\n\nHabit tracking includes streaks and flexible schedules so missing one day doesn’t ruin your motivation.",
+        "size": 33.2,
+        "reviews": 14.49,
+        "ratingAvg": 4.4,
+        "downloads": 1.6,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 540
+            },
+            {
+                "name": "2 star",
+                "count": 860
+            },
+            {
+                "name": "3 star",
+                "count": 310
+            },
+            {
+                "name": "4 star",
+                "count": 490
+            },
+            {
+                "name": "5 star",
+                "count": 50
+            }
+        ]
+    },
+    {
+        "image": "https://picsum.photos/seed/app-13/800/600",
+        "title": "SoundScape Player",
+        "companyName": "EchoLane",
+        "id": 13,
+        "description": "SoundScape Player is a minimal music player that stays fast even with huge libraries.\n\nCreate playlists, queue tracks with a swipe, and use an equalizer with simple presets. The app remembers where you left off, even after a restart.\n\nImport local files, stream from supported sources, and keep your listening history private by default.",
+        "size": 40.8,
+        "reviews": 7.63,
+        "ratingAvg": 4.2,
+        "downloads": 5.2,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 42
+            },
+            {
+                "name": "2 star",
+                "count": 610
+            },
+            {
+                "name": "3 star",
+                "count": 16
+            },
+            {
+                "name": "4 star",
+                "count": 2400
+            },
+            {
+                "name": "5 star",
+                "count": 26
+            }
+        ]
+    },
+    {
+        "image": "https://picsum.photos/seed/app-14/800/600",
+        "title": "Reader Realm",
+        "companyName": "PagePilot",
+        "id": 14,
+        "description": "Reader Realm is an ebook reader with smooth page turns and a clean library view.\n\nAdjust fonts, margins, and themes for comfortable reading day or night. Highlights and bookmarks sync across devices so you never lose your place.\n\nOrganize books into shelves, track reading progress, and export notes for study or research.",
+        "size": 57.6,
+        "reviews": 13.2,
+        "ratingAvg": 4.6,
+        "downloads": 1.9,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 390
+            },
+            {
+                "name": "2 star",
+                "count": 600
+            },
+            {
+                "name": "3 star",
+                "count": 220
+            },
+            {
+                "name": "4 star",
+                "count": 5200
+            },
+            {
+                "name": "5 star",
+                "count": 485
+            }
+        ]
+    },
+    {
+        "image": "https://picsum.photos/seed/app-15/800/600",
+        "title": "QuickScan PDF",
+        "companyName": "DocCraft",
+        "id": 15,
+        "description": "QuickScan PDF turns your phone into a simple scanner for documents, receipts, and notes.\n\nAuto-crop and edge detection help you get a clean scan in seconds. Export as PDF or image and share directly to email or cloud storage.\n\nOrganize files with folders, add tags for fast searching, and keep your scans readable with contrast enhancement.",
+        "size": 49.5,
+        "reviews": 9.8,
+        "ratingAvg": 4.4,
+        "downloads": 11,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 520
+            },
+            {
+                "name": "2 star",
+                "count": 800
+            },
+            {
+                "name": "3 star",
+                "count": 22
+            },
+            {
+                "name": "4 star",
+                "count": 3100
+            },
+            {
+                "name": "5 star",
+                "count": 31
+            }
+        ]
+    },
+    {
+        "image": "https://picsum.photos/seed/app-16/800/600",
+        "title": "ShopSmart Deals",
+        "companyName": "DealDistrict",
+        "id": 16,
+        "description": "ShopSmart Deals helps you compare prices and find discounts without jumping between apps.\n\nCreate a watchlist, set target prices, and get alerts when items drop. The app also tracks common shopping seasons so you can plan purchases better.\n\nSave receipts, track warranty dates, and keep everything organized for easier returns and support.",
+        "size": 63.8,
+        "reviews": 6.9,
+        "ratingAvg": 4.0,
+        "downloads": 4.8,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 64
+            },
+            {
+                "name": "2 star",
+                "count": 780
+            },
+            {
+                "name": "3 star",
+                "count": 17
+            },
+            {
+                "name": "4 star",
+                "count": 2100
+            },
+            {
+                "name": "5 star",
+                "count": 168
+            }
+        ]
+    },
+    {
+        "image": "https://picsum.photos/seed/app-17/800/600",
+        "title": "CityMap Go",
+        "companyName": "UrbanRoute",
+        "id": 17,
+        "description": "CityMap Go is a lightweight map app focused on fast navigation and clear directions.\n\nSearch places quickly, save favorites, and use turn-by-turn guidance with readable lane hints. Offline city packs help when you’re traveling with limited data.\n\nShare your location in real time with trusted contacts and keep your route history optional, not forced.",
+        "size": 76.4,
+        "reviews": 15.77,
+        "ratingAvg": 4.2,
+        "downloads": 2.3,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 110
+            },
+            {
+                "name": "2 star",
+                "count": 1500
+            },
+            {
+                "name": "3 star",
+                "count": 380
+            },
+            {
+                "name": "4 star",
+                "count": 4500
+            },
+            {
+                "name": "5 star",
+                "count": 48
+            }
+        ]
+    },
+    {
+        "image": "https://picsum.photos/seed/app-18/800/600",
+        "title": "CodeFlash Quiz",
+        "companyName": "DevDock",
+        "id": 18,
+        "description": "CodeFlash Quiz makes coding practice fun with short daily challenges and quizzes.\n\nPick JavaScript, Python, or basic CS topics, then solve bite-sized problems with instant explanations. Difficulty adapts based on your accuracy.\n\nTrack your growth, review weak areas, and keep a personal library of solutions for later revision.",
+        "size": 52.7,
+        "reviews": 11.23,
+        "ratingAvg": 4.5,
+        "downloads": 13,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 420
+            },
+            {
+                "name": "2 star",
+                "count": 620
+            },
+            {
+                "name": "3 star",
+                "count": 2100
+            },
+            {
+                "name": "4 star",
+                "count": 3700
+            },
+            {
+                "name": "5 star",
+                "count": 4390
+            }
+        ]
+    },
+    {
+        "image": "https://picsum.photos/seed/app-19/800/600",
+        "title": "EventEase",
+        "companyName": "MeetMint",
+        "id": 19,
+        "description": "EventEase helps you create and manage events with simple invitations and reminders.\n\nBuild guest lists, track RSVPs, and send updates without spamming everyone. Location and time details stay pinned so attendees can find them quickly.\n\nAfter the event, you can share photos in a private album and keep notes for planning the next one.",
+        "size": 46.9,
+        "reviews": 5.2,
+        "ratingAvg": 4.1,
+        "downloads": 4.1,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 360
+            },
+            {
+                "name": "2 star",
+                "count": 540
+            },
+            {
+                "name": "3 star",
+                "count": 1300
+            },
+            {
+                "name": "4 star",
+                "count": 1600
+            },
+            {
+                "name": "5 star",
+                "count": 1480
+            }
+        ]
+    },
+    {
+        "image": "https://picsum.photos/seed/app-20/800/600",
+        "title": "CloudDrive Lite",
+        "companyName": "NimbusWare",
+        "id": 20,
+        "description": "CloudDrive Lite is a simple file backup app for photos, documents, and important folders.\n\nUpload in the background, pause on mobile data, and set schedules for nighttime syncing. Smart deduplication helps reduce wasted storage.\n\nRestore files anytime, share links securely, and keep version history so accidental deletes aren’t a disaster.",
+        "size": 90.2,
+        "reviews": 20,
+        "ratingAvg": 4.3,
+        "downloads": 4.1,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 1200
+            },
+            {
+                "name": "2 star",
+                "count": 1600
+            },
+            {
+                "name": "3 star",
+                "count": 4600
+            },
+            {
+                "name": "4 star",
+                "count": 6200
+            },
+            {
+                "name": "5 star",
+                "count": 6515
+            }
+        ]
+    }
+]
